@@ -7,7 +7,7 @@ body {
 nav {
   background-color: yellow;
   height: 100px;
-  margin-top: -10px;
+  margin-top: -0px;
   position: fixed;
   width: 100%;
 }
@@ -22,11 +22,6 @@ h1 {
   font-size: 2em;
 }
 
-.example h3 {
-  padding-top: 30px;
-  text-align: center;
-}
-
 h3 {
   font-size: 1.3em;
 }
@@ -37,8 +32,10 @@ h3 {
   margin: 10px 0;
   width: 100%;
 }
- /*change color of last three div elements*/
 
-.finalelement {
-  background-color: none;
+.final3lement { /*change color of last three elements to red*/
+  background-color: red;
+  height: 100px;
+  margin: 10px 0;
+  width: 100%;
 }
